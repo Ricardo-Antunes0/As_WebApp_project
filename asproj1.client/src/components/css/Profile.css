@@ -1,0 +1,176 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  height: 100vh;
+  width: 100vw;
+}
+
+.welcome-container {
+  margin-top: -300px; 
+
+}
+
+.Dados{
+  margin-left: -100%;
+  align-items: flex-start;
+}
+
+.welcome-message{
+  font-size:220%;
+}
+
+.button-container {
+   display: flex;
+  margin-top: 50px;
+  margin-left: 35%;
+}
+
+.Logout-helpdesk {
+  float: right; 
+  margin-left: 60%;
+}
+
+.button {
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 20px;
+  height: auto; 
+  width: auto;
+}
+
+.add-data-button,
+.logout-button {
+  margin-right: 30px;
+  margin-bottom: -5%;
+  margin-top: 5%;
+  font-size: 13px;
+}
+
+
+
+.client-table {
+  width: 100%; /* Ajusta a largura da tabela */
+  margin: 25%;
+  margin-top: -70%; /* Adiciona margem superior para afastar da parte superior da tela */
+  border-collapse: collapse; /* Combina bordas de células para uma aparência mais limpa */
+}
+
+.client-table th, .client-table td {
+  border: 1px solid #ddd; /* Adiciona bordas a todas as células */
+  padding: 8px; /* Adiciona preenchimento interno às células */
+}
+
+.client-table th {
+  background-color: #a09999; /* Adiciona uma cor de fundo para cabeçalhos */
+}
+
+.client-table th, .client-table td {
+  text-align: center; /* Centraliza o texto nas células */
+}
+
+
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.custom-table th, .custom-table td {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.custom-table th {
+  background-color: #a09999;
+}
+
+
+.custom-table tr:hover {
+  background-color: #d3e0ea;
+}
+
+/* Estilos para os botões de edição/eliminação */
+.custom-table button {
+  margin-right: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #4caf50; /* Cor de fundo verde (pode ajustar) */
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+
+.custom-modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.custom-modal form {
+  background-color: #fff; /* Cor de fundo do formulário */
+  padding: 35px; /* Espaçamento interno do formulário */
+  border-radius: 12px; /* Borda arredondada */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra */
+  text-align: left; 
+}
+
+.Label-modal {
+  font-size: 1.8em;
+  color: #4caf50;
+  margin-bottom: 10px; /* Espaço inferior entre o rótulo e o input */
+  text-align: left; 
+}
+
+.custom-modal input {
+  width: 90%;
+  padding: 8px; /* Espaçamento interno do input */
+  margin-bottom: -5px;
+}
+
+.custom-modal button {
+  background-color: #4caf50; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 10px 20px; /* Espaçamento interno do botão */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  margin-top: 20px;
+}
+
+.custom-modal button:hover {
+  background-color: #45a049; /* Cor de fundo do botão ao passar o mouse */
+}
+
+
+.close-button {
+  margin-left: 80%;
+  background-color: transparent;
+  border: none;
+  color: #4caf50;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  color: #45a049;
+}
+
+
+.custom-modal {
+  margin-top: 5%;
+  max-height: 200vh; /* Ajuste conforme necessário */
+  overflow-y: auto; /* Adiciona scroll vertical se necessário */
+}
+
+.form-row label {
+  color: black; 
+  font-size: 16px; 
+ 
+}
